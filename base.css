@@ -1,17 +1,80 @@
+/* ================= BASE ================= */
+
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: orange;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background: #051923;
+  border-color: #003554;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+nav {
+  background: #003554;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+
 }
 
 body {
   line-height: 1.6;
   margin: 0;
   font-family: 'Overpass', sans-serif;
+  color: #3a3a3a;
+}
+/*
+h1,
+h2 {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  margin-top: -20px;
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+
+p {
+  font-size: 0.95em;
+  margin-bottom: 20px;
+} */
 
 a {
   text-decoration: none;
 }
+
+img {
+  max-width: 50%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */

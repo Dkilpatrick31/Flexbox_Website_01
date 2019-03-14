@@ -1,0 +1,15 @@
+.main-heading,
+.name-position,
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.name-position {
+  flex-direction: column;
+}
+
+.main-nav {
+  flex-direction: row;
+}
