@@ -33,37 +33,20 @@ nav {
 
 nav a, nav a:visited {
   color: #fff;
+}
 
+nav a.selected, nav a:hover {
+  color: #00A6FB;
 }
 
 body {
+  background-color: #fff;
+  color: #999;
   line-height: 1.6;
   margin: 0;
   font-family: 'Overpass', sans-serif;
   color: #3a3a3a;
 }
-/*
-h1,
-h2 {
-  margin: 0;
-}
-
-h2 {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 18px;
-  margin-top: -20px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-p {
-  font-size: 0.95em;
-  margin-bottom: 20px;
-} */
 
 a {
   text-decoration: none;
